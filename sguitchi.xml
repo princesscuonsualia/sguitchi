@@ -40,6 +40,11 @@
                 <field name="NUM">250</field>
               </block>
             </value>
+            <next>
+              <block type="multimedia_playwav" id="137">
+                <field name="WAV">_SndTest.w</field>
+              </block>
+            </next>
           </block>
         </next>
       </block>
