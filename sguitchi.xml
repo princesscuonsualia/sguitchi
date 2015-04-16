@@ -31,22 +31,22 @@
                 <field name="NUM">0</field>
               </block>
             </value>
-          </block>
-        </statement>
-        <next>
-          <block type="robot_delay" id="106" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="130">
-                <field name="NUM">250</field>
-              </block>
-            </value>
             <next>
-              <block type="multimedia_playwav" id="137">
-                <field name="WAV">_SndTest.w</field>
+              <block type="robot_delay" id="106" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="130">
+                    <field name="NUM">250</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_playwav" id="137">
+                    <field name="WAV">_SndTest.w</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
-        </next>
+        </statement>
       </block>
     </statement>
   </block>
